@@ -6,14 +6,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 function createArray (newArray){                    //creo funzione
     let myArray = [];                               //creo variabile di accumulo
-    for(let i = 0; i < newArray.length; i++){ 
-                                                    //creo ciclo
+    for(let i = 0; i < newArray.length; i++){       //creo ciclo
         myArray.push(newArray[i].charAt(0))
         
-
     }
-
-
 
     return myArray
 }
